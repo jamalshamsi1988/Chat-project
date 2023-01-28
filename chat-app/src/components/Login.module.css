@@ -7,7 +7,36 @@
     align-items: center;
 }
 
-.loginCard{
+.loginCard{ 
     border: 1px solid silver;
     border-radius: 10px;
+    padding: 20px 35px;
+    background-color: #fff;
+}
+.loginCard h2{
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    color: rgb(93, 93, 93);
+}
+.button img{
+    width: 30px;
+    margin-right: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f9d58;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.button:hover{
+    background: #07713e;
+
 }
