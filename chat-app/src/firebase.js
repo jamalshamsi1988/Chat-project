@@ -9,3 +9,7 @@ export const auth =firebase.initializeApp ({
     messagingSenderId: "203444962045",
     appId: "1:203444962045:web:9f06b14c70a6fb93e7f494"
   }).auth();
+
+
+  //www.firebase.google.com
+  
